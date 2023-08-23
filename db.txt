@@ -1,0 +1,16 @@
+
+#create the table for transaction
+
+
+create table transaction( id int AUTO_INCREMENT primary key,item_name varchar(20),quantity int,transcation_type varchar(10),
+timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+#Show the detatil front page for html
+
+
+select id,item_name,quantity,transcation_type, timestamp, rate, amount from transaction;
+
+#get the value of rate and quantity store the database
+
+INSERT INTO transaction (item_name, quantity,rate,transcation_type,amount) VALUES (%s, %s,%s,%s,%s)",
+                    (item_name, quantity,ra,trans_type,t_c)
