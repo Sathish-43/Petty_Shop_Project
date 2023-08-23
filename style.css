@@ -1,0 +1,101 @@
+
+.hole {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url('/static/images/bg22.jpg');
+    background-size: cover;
+
+}
+.h11 h1{
+    color: azure;
+    text-align: center;
+}
+h1 {
+    background-color: #501bd5;
+   
+}
+
+h2 {
+    color: #666;
+    margin-top: 20px;
+}
+
+p {
+    color: #444;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+select, input, button {
+    margin: 5px;
+}
+.add-p h2{
+    color: orange;
+}
+.add-p{
+    justify-content: center;
+    
+    border: 1px solid #c24a4a;
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.sample{
+    margin-left: 35%;
+}
+.sale1{
+    justify-content: center;
+    
+    border: 1px solid #c24a4a;
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    margin-left: 35%;
+    background-color: aliceblue;
+}
+.sale1 h2{
+    color: orange;
+}
+.add-p input{
+    border: 2px solid olive;
+    width: 190px;
+    height: 38px;
+    
+
+}
+.add-p select{
+    border: 2px solid olive;
+    width: 190px;
+    height: 38px;
+}
+.sale1 input{
+    border: 2px solid olive;
+    width: 190px;
+    height: 38px;
+}
+.sale1 select{
+    border: 2px solid olive;
+    width: 190px;
+    height: 38px;
+}
+.add-p button{
+    color: white;
+    background-color: green;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+}
+.sale1 button{
+    color: white;
+    background-color: rgba(242, 36, 36, 0.914);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+
+}
